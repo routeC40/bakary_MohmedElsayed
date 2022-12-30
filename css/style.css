@@ -1,0 +1,259 @@
+/* general styles */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+p,li{
+    font-family: Alegreya Sans,sans-serif,monospace;
+    color: #686868;
+}
+
+.clear{
+    clear: both;
+}
+.pd-y{
+    padding: 60px 0;
+}
+.background-info{
+    background-color: #f8f8f889;
+    padding: 50px 0px;
+}
+
+/* header */
+.header{
+    position: fixed;
+    width: 100%;
+    z-index: 2;
+}
+ .continer{
+    width: 90%;
+    margin: auto;
+    height: 20%;
+}
+.header .logo{
+    width: 40%;
+    /* background-color: blue; */
+    float: left;
+}
+.header .logo img{
+    width: 40%;
+}
+.header .nav{
+    width: 60%;
+    float: left;
+    text-align: right;
+}
+.header .nav li{
+  
+    display: inline-block;
+    list-style: none;
+}
+.header .nav li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+    padding:20px 15px;
+    display: block;
+    text-transform: capitalize;
+}
+/* home section */
+.home{
+    height: 100vh;
+    background-image: url(../img/2.jpg);
+    background-size: 100% 100%;
+    position: relative;
+}
+.home .overlay{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color:rgba(0,0,0, 0.3);
+}
+.home-content{
+    width: 70%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+.home .title-desc{
+    color: #cccccc;
+    font-size: 24px;
+    margin-bottom: 40px;
+    letter-spacing: 0.5px;
+}
+.home .title-family{
+    margin-bottom: 30px;
+    font-size: 70px;
+    color: #ffffff;
+}
+.home .btn{
+    font-size: 16px;
+    padding: 15px 20px;
+    margin: 0 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    color: #fff;
+}
+.home .btn1{
+    background: #8e7754;
+    border: none;
+}
+.home .btn2{
+    border: 2px solid #fff;
+    background: none;
+}
+/* information section */
+
+
+.info-content{
+    width: 50%; 
+}
+.info-content .img-info img{
+    width: 90%;
+    float: left;
+}
+.info-desc{
+    float: right;
+}
+.info-title{
+    margin-top: 50px;
+    text-align: center;
+}
+.info-event{
+    margin: 30px 0; 
+    line-height: 1.86em;
+    text-align: center;
+}
+
+.info-details li{
+    color: #686868;
+    line-height: 2.90em;
+    list-style: none;
+}
+.info-details li i{
+    color: white;
+    padding: 7px 5px;
+    border: 1px solid #686868;
+    border-radius: 50%;
+    background-color: #8e7754;
+}
+
+/* location section */
+.info-location{
+    float: left;
+    margin-right: 40px;
+}
+.location-imgs .location-img img{
+    float: left;
+    width: 45%;
+}
+/* section our-baking */
+.baking-title{
+    text-align: center;
+}
+.baking-content{
+    padding: 0 30px;
+
+}
+.baking-content .mg{
+    margin: 0 5%;
+
+}
+.baking-content-info{
+    width: 30%;
+    float: left;
+    padding: 5px 10px;
+    text-align: center;
+}
+.baking-content-info img{
+    width: 100%;
+}
+.baking-content-info h4{
+    padding: 10px 0 0 ;
+}
+/* section about */
+.about{
+    background-color: #21201f;
+}
+.about-item{
+    float: left;
+    width: 24%;
+    padding: 0 15px;
+    
+}
+.about-item-title{
+    font-size: 18px;
+    line-height: 1.86em;
+    padding: 10px 10px auto;
+}
+.about-title{
+    text-align: left;
+    color: white;
+    padding: 20px 0 ;
+    font-size: 20px;
+}
+.about-list li{
+    border-bottom: 1px solid #303030;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    display: block;
+    display: flex;
+    color: #969696;
+    list-style: none;
+    font-size: 19px;
+}
+.about-list li i{
+   font-size: 30px;
+   padding: 0 10px;
+}
+/* section footer */
+footer{
+    background-color: #121212;
+    height: auto;
+    width: 100vw;
+}
+.footer-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+.footer-content span{
+    color: #ffffff;
+}
+.footer-social{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 3rem;
+}
+.footer-social a{
+  text-decoration: none;
+  color: white;
+}
+.footer-social a{
+    font-size: 1rem;
+
+}
+.footer-social a:hover i{
+    color: aqua;
+    
+}
+.footer-content li {
+   margin: 0 10px;
+}
+
+
+
+
+
+
+
+
